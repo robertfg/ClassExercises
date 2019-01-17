@@ -4,18 +4,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// I added this in order to use debug.write
+using System.Diagnostics;
+
 namespace ClassExercises
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            // Instantiate a new dog:
+            Dog sam = new Dog();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            // Define the dog:
+            sam.Breed = "Collie";
+            sam.EyeColor = "brown";
+            sam.Speed = 20;
+
+            sam.NumberOfArms = 0;
+            sam.NumberOfLegs = 4;
+            sam.Type = "dog";
+
+            // This writes to the Output window below:
+            Debug.Write(sam.Breed);
+
+            // Display his attributes:
+            Console.WriteLine("Sam is a " + sam.Type + ".");
+            Console.WriteLine("Sam's breed is " + sam.Breed + ".");
+            Console.WriteLine("Sam has " + sam.EyeColor + " eyes.");
+            Console.WriteLine("Sam has " + sam.NumberOfArms + " arms and " + sam.NumberOfLegs + " legs.");
+            Console.WriteLine("Sam's speed is " + sam.Speed + " mph.");
+            sam.Bark();
+            sam.Eat(sam.Type);
+            Console.ReadLine();
         }
     }
 }
