@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassExercises", "ClassExercises\ClassExercises.csproj", "{81A10EB2-1075-426F-8259-5DEAB5F1145F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week 1 - Inheritance", "ClassExercises\Week 1 - Inheritance.csproj", "{81A10EB2-1075-426F-8259-5DEAB5F1145F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesAndStatics", "InterfacesAndStatics\InterfacesAndStatics.csproj", "{C1E403FF-EBA6-463A-8139-BD8F2BEF1B29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week 2 - InterfacesAndStatics", "InterfacesAndStatics\Week 2 - InterfacesAndStatics.csproj", "{C1E403FF-EBA6-463A-8139-BD8F2BEF1B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week 3 - FileIO", "ConsoleApp1\Week 3 - FileIO.csproj", "{0ED021BC-1E9E-4B49-8E73-AE5F6C2FF76E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week 4 - FileIO", "Week 4 - FileIO\Week 4 - FileIO.csproj", "{DDE62BCB-BB12-418D-9E36-6192DC97DD57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C1E403FF-EBA6-463A-8139-BD8F2BEF1B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1E403FF-EBA6-463A-8139-BD8F2BEF1B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1E403FF-EBA6-463A-8139-BD8F2BEF1B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED021BC-1E9E-4B49-8E73-AE5F6C2FF76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED021BC-1E9E-4B49-8E73-AE5F6C2FF76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED021BC-1E9E-4B49-8E73-AE5F6C2FF76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED021BC-1E9E-4B49-8E73-AE5F6C2FF76E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE62BCB-BB12-418D-9E36-6192DC97DD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE62BCB-BB12-418D-9E36-6192DC97DD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE62BCB-BB12-418D-9E36-6192DC97DD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE62BCB-BB12-418D-9E36-6192DC97DD57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
