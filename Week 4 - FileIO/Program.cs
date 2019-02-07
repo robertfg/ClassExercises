@@ -14,7 +14,6 @@ namespace Wk4_FileIO
 
         static void Main(string[] args)
         {
-            bool res;
             Book book = new Book();
 
             // try-catch is overkill here:
