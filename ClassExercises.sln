@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week 3 - FileIO", "ConsoleA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week 4 - FileIO", "Week 4 - FileIO\Week 4 - FileIO.csproj", "{DDE62BCB-BB12-418D-9E36-6192DC97DD57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week 5 - Collections", "Week 5 - Collections\Week 5 - Collections.csproj", "{38EE5B3A-3812-4887-A65F-16362BB562B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DDE62BCB-BB12-418D-9E36-6192DC97DD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE62BCB-BB12-418D-9E36-6192DC97DD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDE62BCB-BB12-418D-9E36-6192DC97DD57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38EE5B3A-3812-4887-A65F-16362BB562B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EE5B3A-3812-4887-A65F-16362BB562B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EE5B3A-3812-4887-A65F-16362BB562B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EE5B3A-3812-4887-A65F-16362BB562B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
